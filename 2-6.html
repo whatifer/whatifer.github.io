@@ -1,0 +1,257 @@
+<!-- Code Credit to Ronni Chidekel: https://codepen.io/ronnidc/pen/WvZJBr?editors=0010-->
+<!--Webcam curtosey of Rhoit Dalal:https://dev.to/dalalrohit/live-stream-your-webcam-to-html-page-3ehf-->
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <title>Saturday | 2-6</title>
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<style>
+body{
+font-family: "Lato", sans-serif
+}
+</style>
+
+</head>
+<body>
+<div class="view">
+<svg width="420" height="240">
+  <rect width="420" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<p id="view">now viewing</p>
+<h1>2-6</h1>
+</div>
+<h2>select a video to reveal the time stamps</h2>
+<div id="video2">
+<video id="myVidPlayer" width="320" height="240" controls muted autoplay></video>
+
+<script type="text/javascript">
+    //Selector for your <video> element
+    const video = document.querySelector('#myVidPlayer');
+
+    //Core
+    window.navigator.mediaDevices.getUserMedia({ video: true })
+        .then(stream => {
+            video.srcObject = stream;
+            video.onloadedmetadata = (e) => {
+                video.play();
+            };
+        })
+        .catch( () => {
+            alert('You have give browser the permission to run Webcam and mic ;( ');
+        });
+
+</script>
+</div>
+<!-- partial:index.partial.html -->
+<!--<div id=item>-->
+<video id="item1" width="320" height="240" controls>
+  <source src="mp4/2-6-1.mp4" type="video/mp4">
+</video>
+<div class="group1">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>7:39</p>
+</div>
+</div>
+
+<video id="item2" width="320" height="240" controls>
+  <source src="mp4/2-6-2.mp4" type="video/mp4">
+</video>
+<div class="group2">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>8:21</p>
+</div>
+</div>
+
+<video id="item3" width="320" height="240" controls>
+  <source src="mp4/2-6-3.mp4" type="video/mp4">
+</video>
+<div class="group3">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>9:01</p>
+</div>
+</div>
+
+<video id="item4" width="320" height="240" controls>
+  <source src="mp4/2-6-4.mp4" type="video/mp4">
+</video>
+<div class="group4">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>10:12</p>
+</div>
+</div>
+
+<video id="item5" width="320" height="240" controls>
+  <source src="mp4/2-6-5.mp4" type="video/mp4">
+</video>
+<div class="group5">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>11:56</p>
+</div>
+</div>
+
+<video id="item6" width="320" height="240" controls>
+  <source src="mp4/2-6-6.mp4" type="video/mp4">
+</video>
+<div class="group6">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>12:36</p>
+</div>
+</div>
+
+<video id="item7" width="320" height="240" controls>
+  <source src="mp4/2-6-7.mp4" type="video/mp4">
+</video>
+<div class="group7">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>13:12</p>
+</div>
+</div>
+
+<video id="item8" width="320" height="240" controls>
+  <source src="mp4/2-6-8.mp4" type="video/mp4">
+</video>
+<div class="group8">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>14:24</p>
+</div>
+</div>
+
+<video id="item9" width="320" height="240" controls>
+  <source src="mp4/2-6-9.mp4" type="video/mp4">
+</video>
+<div class="group9">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>15:04</p>
+</div>
+</div>
+
+<video id="item10" width="320" height="240" controls>
+  <source src="mp4/2-6-10.mp4" type="video/mp4">
+</video>
+<div class="group10">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>16:26</p>
+</div>
+</div>
+
+<video id="item11" width="320" height="240" controls>
+  <source src="mp4/2-6-11.mp4" type="video/mp4">
+</video>
+<div class="group11">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>17:49</p>
+</div>
+</div>
+
+<video id="item12" width="320" height="240" controls>
+  <source src="mp4/2-6-12.mp4" type="video/mp4">
+</video>
+<div class="group12">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>18:02</p>
+</div>
+</div>
+
+<video id="item13" width="320" height="240" controls>
+  <source src="mp4/2-6-13.mp4" type="video/mp4">
+</video>
+<div class="group13">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>19:41</p>
+</div>
+</div>
+
+<video id="item14" width="320" height="240" controls>
+  <source src="mp4/2-6-14.mp4" type="video/mp4">
+</video>
+<div class="group14">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>20:30</p>
+</div>
+</div>
+
+<video id="item15" width="320" height="240" controls>
+  <source src="mp4/2-6-15.mp4" type="video/mp4">
+</video>
+<div class="group15">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>21:23</p>
+</div>
+</div>
+
+<video id="item16" width="320" height="240" controls>
+  <source src="mp4/2-6-16.mp4" type="video/mp4">
+</video>
+<div class="group16">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>22:14</p>
+</div>
+</div>
+
+<video id="item17" width="320" height="240" controls>
+  <source src="mp4/2-6-17.mp4" type="video/mp4">
+</video>
+<div class="group17">
+<svg width="320" height="240">
+  <rect width="320" height="240" style="fill:none;stroke-width:3;stroke:none)" />
+</svg>
+<div class="text1">
+<p>23:21</p>
+</div>
+</div>
+
+<!-- partial -->
+  <script  src="script2.js"></script>
+</div>
+</body>
+</html>

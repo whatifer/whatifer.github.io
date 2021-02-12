@@ -1,0 +1,305 @@
+#item1 {
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 0px;
+  transition: all 1s;
+}
+.group1{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:0px;
+  z-index: -1;
+}
+.text1 {
+  position:absolute;
+  vertical-align: middle;
+  font-size:50px;
+  top: 50%;
+  left:50%;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke:1px #54F200;
+  transform: translate(-50%, -50%);
+}
+
+#item2 {
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 320px;
+  transition: all 1s;
+}
+.group2{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:320px;
+  z-index: -1;
+}
+
+#item3 {
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 640px;
+  transition: all 1s;
+}
+.group3{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:640px;
+  z-index: -1;
+}
+
+#item4{
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 960px;
+  transition: all 1s;
+}
+.group4{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:960px;
+  z-index: -1;
+}
+
+#item5{
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 1280px;
+  transition: all 1s;
+}
+.group5{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:1280px;
+  z-index: -1;
+}
+
+#item6{
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 1600px;
+  transition: all 1s;
+}
+.group6{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:1600px;
+  z-index: -1;
+}
+
+#item7{
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 1920px;
+  transition: all 1s;
+}
+.group7{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:1920px;
+  z-index: -1;
+}
+
+#item8{
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 2240px;
+  transition: all 1s;
+}
+.group8{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:2240px;
+  z-index: -1;
+}
+
+#item9{
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 2560px;
+  transition: all 1s;
+}
+.group9{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:2560px;
+  z-index: -1;
+}
+
+#item10{
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 2880px;
+  transition: all 1s;
+}
+.group10{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:2880px;
+  z-index: -1;
+}
+
+#item11{
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 3200px;
+  transition: all 1s;
+}
+.group11{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:3200px;
+  z-index: -1;
+}
+
+#item12{
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 3520px;
+  transition: all 1s;
+}
+.group12{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:3520px;
+  z-index: -1;
+}
+
+#item13{
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 3840px;
+  transition: all 1s;
+}
+.group13{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:3840px;
+  z-index: -1;
+}
+
+#item14{
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 4160px;
+  transition: all 1s;
+}
+.group14{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:4160px;
+  z-index: -1;
+}
+
+#item15{
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 4480px;
+  transition: all 1s;
+}
+.group15{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:4480px;
+  z-index: -1;
+}
+
+#item16{
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 4800px;
+  transition: all 1s;
+}
+.group16{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:4800px;
+  z-index: -1;
+}
+
+#item17{
+  cursor: pointer;
+  position: absolute;
+  top: 355px;
+  left: 5120px;
+  transition: all 1s;
+}
+.group17{
+  position:absolute;
+  text-align:center;
+  top:365px;
+  left:5120px;
+  z-index: -1;
+}
+#video2{
+  position: fixed;
+  right:10px;
+  z-index:1;
+}
+.view{
+  position:fixed;
+  text-align:center;
+  top:30px;
+  left: 50%;
+  transform: translate(-50%,-30px);
+  z-index:2;
+}
+h1{
+  position:absolute;
+  vertical-align: middle;
+  font-size:60px;
+  font-style:italic;
+  top: 50%;
+  left:50%;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke:1px #54F200;
+  transform: translate(-50%, -50%);
+  z-index:1;
+}
+h2{
+  position:fixed;
+  left:10px;
+  top:70px;
+  z-index:1;
+  color:#54F200;
+}
+#view{
+  position:absolute;
+  vertical-align: middle;
+  font-size:30px;
+  top: 20%;
+  left:50%;
+  color:#225600;
+  transform: translate(-50%, -50%);
+}
